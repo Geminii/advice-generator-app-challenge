@@ -19,6 +19,15 @@ module.exports = {
         laptop: '1024px',
         desktop: '1440px',
       },
+      spacing: {
+        dice: 'calc(50% - 32px)',
+      },
+      boxShadow: {
+        btn: '0px 0px 32px 0px hsl(150, 100%, 66%)',
+      },
+      fontSize: {
+        quote: '1.75rem',
+      },
     },
   },
   plugins: [],
