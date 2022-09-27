@@ -1,113 +1,105 @@
-# Drop-in Replacement for [CRA](http://create-react-app.dev/) but powered by [Vite](https://vitejs.dev/)
+# Frontend Mentor - Advice generator app solution
 
-### Things in CRA, supported here:
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-- Import SVG's directly as React Component via SVGR
-- Unit Testing via Jest & React Testing Library
-- ESLint Rules & Prettier
-- Tailwind
-- Absolute imports within `src` directory
+## Table of contents
 
----
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-### Extra Additions
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-- Conventional Commits using `Commitlint`
-- Run Lint Checks, TS Checks, Formatting & Unit Tests in Pre-commit via `lintstaged` & `husky`
+## Overview
 
----
+### The challenge
 
-### Usage (with [degit](https://github.com/Rich-Harris/degit))
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
+
+<div float="left">
+  <img src="./challenge/design/mobile-design.jpg" width="29%" />
+  <img src="./challenge/design/desktop-preview.jpg" width="70%" />
+</div>
+
+### Links
+
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/advice-generator-app-solution-7F76RF05Dt)
+- Live Site URL: [Online Demo](https://advice-generator-app-challenge-ga49.vercel.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [TailwindCss](https://tailwindcss.com/) - For styles
+
+## Getting Started
+
+### Install
+
+Install dependencies.
 
 ```bash
-degit uchihamalolan/vite-react-ts your-app-name
+pnpm install
 ```
 
----
+Serve with hot reload at <http://localhost:5173>.
 
-### Tech Stack - Overview
+```bash
+pnpm run dev
+```
 
-- Vite
-- React - Typscript
-  - react-error-boundary
-- pnpm
+### Lint
 
----
+```bash
+pnpm run lint
+```
 
-### Editor Config
+### Typecheck
 
-- vscode settings & extension recommendations
-- `.editorconfig` file
+```bash
+pnpm run typecheck
+```
 
----
+### Build
 
-### Lint and Formatting
+```bash
+pnpm run build
+```
 
-- Eslint & Prettier Configured
-- Lints
-  - react
-  - react hooks
-  - typescript
-  - jsx-a11y
+### Test
 
----
+```bash
+pnpm run test
+```
 
-### Testing
+## Author
 
-- Jest + React Testing Library (plus some plugins)
+- Github - [Geminii](https://github.com/Geminii)
+- Dev.to - [Geminii](https://dev.to/geminii)
+- Frontend Mentor - [@Geminii](https://www.frontendmentor.io/profile/Geminii)
 
----
+## Acknowledgments
 
-### Styling
+Thanks Frontendmentor for this really cool challenge ❤️
 
-- TailwindCSS v3
+## License
 
----
+This project is licensed under the MIT License.
 
-# Other Recommended Libraries:
-
-### Forms
-
-- React Hook Form
-- Zod (for validations)
-
-### CSS-in-js
-
-- Emotion
-- Complie Time Atomic CSS-in-Js
-  - Stylex (Facebook, not Open Source yet)
-  - Linaria
-  - Compiled (still in beta)
-
-### Routing
-
-- React-Router-Dom
-- React Location
-
-### Date Manipulation
-
-- Dayjs
-- date-fns
-- Luxon
-
-### HTTP Client
-
-- Ky
-- Axios
-
-### Global Store (full-blown / lite-version)
-
-- Redux Toolkit / Zustand
-- Recoil / Jotai
-- Mobx / Valtio
-- xstate / robot
-
-### Server State
-
-- React Query
-- SWR
-- RTKQuery
-
-<!-- ### Eslint Plugins
-- [eslint-plugin-jest-dom](https://testing-library.com/docs/ecosystem-eslint-plugin-jest-dom)
-- [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) -->
